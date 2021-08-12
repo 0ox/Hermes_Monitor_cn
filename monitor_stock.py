@@ -30,12 +30,6 @@ def get_text(url):
     return text
 
 
-def write_to_txt(msg):
-    f = open('a.txt')
-    f.write(msg)
-    f.close()
-
-
 def out_of_stock(bag_name):
     msg = bag_name + '未上架'
     send_message(msg)
